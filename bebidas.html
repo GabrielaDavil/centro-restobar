@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas - Restobar Centro</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/LOGO.png" alt="Logo Restobar Centro"></a>
+            </div>
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="entradas.html">Entradas</a></li>
+                    <li><a href="platos.html">Platos de Fondo</a></li>
+                    <li><a href="bebidas.html" class="active">Bebidas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content container">
+        <h1>Nuestra Refrescante Selección de Bebidas</h1>
+
+        <div id="edad-alerta" style="color: rgb(179, 255, 0); margin-bottom: 20px; display: none;">
+            <p>Lo sentimos, debes ser mayor de 18 años para ver las bebidas con alcohol.</p>
+        </div>
+
+        <section id="bebidas-no-alcoholicas" class="product-grid">
+            <h2>Bebidas No Alcohólicas</h2>
+            <div class="product-card">
+                <img src="assets/images/gaseosa.jpg" alt="Gaseosa">
+                <h3>Gaseosa Coca Cola</h3>
+                <p class="price">S/ 5.00</p>
+                <button class="order-button">Ordenar</button>
+            </div>
+            </div>
+
+        <section id="bebidas-alcoholicas" class="product-grid" style="display: none;">
+            <h2>Bebidas Alcohólicas</h2>
+            <div class="product-card">
+                <img src="assets/MARGARITA.webp" alt="MARGARITA">
+                <h3>MARGARITA</h3>
+                <p class="price">S/ 24.00</p>
+                <p>El cóctel Margarita es una rica mezcla de Tequila, Cointreau (licor de naranja) y jugo de limón que
+                    se sirve en una copa escarchada con sal en los bordes, así como con hielo frapé o en cubos.</p>
+                <button class="order-button">Ordenar</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/MOJITO.webp" alt="MOJITO">
+                <h3>MOJITO</h3>
+                <p class="price">S/ 26.00</p>
+                <p>Cóctel refrescante, elaborado con ron, jugo de lima, azúcar, hojas de menta y agua con gas.</p>
+                <button class="order-button">Ordenar</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/PINA-COLADA.webp" alt="PINA-COLADA">
+                <h3>PIÑA COLADA</h3>
+                <p class="price">S/ 25.00</p>
+                <p>Cóctel tropical que se prepara con ron, crema de coco, jugo de piña y hielo.</p>
+                <button class="order-button">Ordenar</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/PISCO-PUNCH.webp" alt="pisco">
+                <h3>PISCO-PUNCH</h3>
+                <p class="price">S/ 25.00</p>
+                <p>Cóctel refrescante y equilibrado que se prepara con pisco, piña, limón, jarabe de goma y agua.</p>
+                <button class="order-button">Ordenar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="contact-info">
+                <h3>Contáctanos</h3>
+                <p>Jr. Los Girasoles 123, San Juan de Lurigancho, Lima - Perú</p>
+                <p>Teléfono: (01) 556-1934</p>
+                <p>Email: info@centrorestobar.com</p>
+            </div>
+
+            <div class="social-links">
+                <h3>Síguenos</h3>
+                <a href="#" target="_blank"><img src="assets/social.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="assets/socialinst.png" alt="Instagram"></a>
+                <div class="copyright">
+                    <p>&copy; 2025 Restobar Centro. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
